@@ -29,27 +29,33 @@
                 </div>
             </div>
             <div class="weather-wrapper">
-                <ul>
-                    <li>
+                <ul class="row">
+                    <li class="col-4">
                         <h1 id="city">
                             Tehran
+                            <div id=discription class="description">
+                                clear
+                            </div>
                         </h1>
                     </li>
-                    <li>
+                    <li class="col-4">
                         <h2 id="temperature">
-                            10 °C|°F
+                            10 °C
+                            <div class="picture"><img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                                    alt="windy" id="icon" class="float-left" /></div>
                         </h2>
-                    </li>
-                    <li>
-                        <h3>
-                            <div id="humidity">
-                                humidity:
 
-                            </div>
-                            <div id="wind">
-                                wind:
-                            </div>
                     </li>
+
+                    <h3>
+                        <li class="col-4">
+                            <div>
+                                Humidity:<span id="humidity"></span>%
+                            </div>
+                            <div>
+                                Wind:<span id="wind"></span> km/h
+                            </div>
+                        </li>
                     </h3>
                 </ul>
             </div>
