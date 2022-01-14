@@ -9,8 +9,10 @@ h2{
 
 }
 h3{
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 200px;
+    text-align: right;
+
 }
 ul {
   margin: 0;
@@ -38,6 +40,19 @@ color: #CC6021;
   border-radius: 5px;
   background-color:#041E2E ;
 }
+.search-value{
+    background-color: #041E2E;
+    color: #CC6021;
+    border-radius: 20px;
+}
+.current-time{
+    font-size: 30px;
+
+}
+.hour{
+font-size: 20px;
+opacity: 0.6;
+}
 .time-wrapper,
 .weather-wrapper,
 .forcast-wrapper{
@@ -54,6 +69,7 @@ background-color: #C7D5DA;
 }
 .forcast-wrapper{
     background-color: #557F8B;
+    color: #041E2E;
 }
 .search-form,
 .current-time

@@ -23,46 +23,41 @@
                     <input type="search" placeholder="Type a city name ..." id="city-input" class="city-input" />
                     <input type="submit" value="search" class="search-value" />
                 </form>
-                <div class="current-time">
+                <div class="current-time" id="date">
                     Friday
-                    <div class="hour">05:00</div>
+                    <div class="hour" id="hour">05:00</div>
                 </div>
             </div>
             <div class="weather-wrapper">
                 <ul class="row">
                     <li class="col-4">
-                        <h1 id="city">
-                            Tehran
+                        <h1>
+                            <div id="city"></div>
                             <div id=discription class="description">
                                 clear
                             </div>
                         </h1>
                     </li>
                     <li class="col-4">
-                        <h2 id="temperature">
-                            10 °C
-                            <div class="picture"><img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-                                    alt="windy" id="icon" class="float-left" /></div>
+                        <h2>
+                            <strong id="temperature"></strong><span id="degree">°C</span>
+                            <img src="" alt="windy" id="icon" class="float-left" />
                         </h2>
-
                     </li>
-
-                    <h3>
-                        <li class="col-4">
+                    <li class="col-4">
+                        <h3>
                             <div>
                                 Humidity:<span id="humidity"></span>%
                             </div>
                             <div>
                                 Wind:<span id="wind"></span> km/h
                             </div>
-                        </li>
-                    </h3>
+                        </h3>
+                    </li>
                 </ul>
             </div>
-            <div class="forcast-wrapper">
-                <div>
-                    forcast
-                </div>
+            <div class="forcast-wrapper" id="forcast">
+
             </div>
 
         </div>
